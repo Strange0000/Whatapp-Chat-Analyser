@@ -23,26 +23,21 @@ Create a virtual environment (optional but recommended)
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
-Install dependencies
 
+Install dependencies
 pip install -r requirements.txt
+
 
 Usage
 
 Run the Streamlit app:
-
 streamlit run app.py
 
 How to Export WhatsApp Chat?
-
 Open WhatsApp on your phone.
-
 Go to the chat you want to analyze.
-
 Tap More Options (⋮) > Export Chat.
-
 Choose Without Media for a cleaner analysis.
-
 Save the .txt file and upload it to the app.
 
 Folder Structure
@@ -58,19 +53,16 @@ whatsapp-chat-analysis/
 
 │── README.md           # Project documentation
 
+
 Dependencies
 
 Python 3.x
-
 Streamlit
-
 Matplotlib
-
 Seaborn
-
 Pandas
-
 Numpy
+
 
 Future Improvements
 
@@ -80,10 +72,10 @@ Future Improvements
 
 ✅ Advanced Visualization & Analytics
 
-Contributing
 
+
+Contributing
 Feel free to open issues or create pull requests to contribute to this project.
 
 License
-
 This project is open-source under the MIT License.
