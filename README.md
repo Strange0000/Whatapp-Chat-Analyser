@@ -49,9 +49,13 @@ Folder Structure
 
 whatsapp-chat-analysis/
 │── processor.py        # Chat preprocessing functions
+
 │── helper.py           # Analysis and visualization functions
+
 │── app.py              # Streamlit app main script
+
 │── requirements.txt    # Dependencies
+
 │── README.md           # Project documentation
 
 Dependencies
