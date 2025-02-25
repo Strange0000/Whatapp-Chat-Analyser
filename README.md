@@ -9,13 +9,18 @@ WhatsApp Chat Analysis is a data-driven tool that helps users extract insights f
 
 Features
 
-✅ Upload WhatsApp Chat Export (.txt)✅ View Top Statistics: Messages, Words, Links, Videos, Images, and Audio shared✅ Activity Timeline: Monthly and Daily trends✅ User Activity Map: Weekly heatmap, busiest days, and most active users✅ Most Common Words & WordCloud✅ Emoji Analysis
+✅ Upload WhatsApp Chat Export (.txt)
+✅ View Top Statistics: Messages, Words, Links, Videos, Images, and Audio shared
+✅ Activity Timeline: Monthly and Daily trends
+✅ User Activity Map: Weekly heatmap, busiest days, and most active users
+✅ Most Common Words & WordCloud
+✅ Emoji Analysis
 
 Installation
 
 Clone the repository
 
-git clone https://github.com/your-username/whatsapp-chat-analysis.git
+git clone https://github.com/Strange0000/whatsapp-chat-analysis.git
 cd whatsapp-chat-analysis
 
 Create a virtual environment (optional but recommended)
