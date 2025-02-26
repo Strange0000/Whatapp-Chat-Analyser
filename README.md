@@ -18,10 +18,12 @@ Features
 
 Installation
 
+
 Clone the repository
 
 git clone https://github.com/Strange0000/whatsapp-chat-analysis.git
 cd whatsapp-chat-analysis
+
 
 Create a virtual environment (optional but recommended)
 
@@ -39,11 +41,13 @@ Run the Streamlit app:
 streamlit run app.py
 
 How to Export WhatsApp Chat?
+
 Open WhatsApp on your phone.
 Go to the chat you want to analyze.
 Tap More Options (⋮) > Export Chat.
 Choose Without Media for a cleaner analysis.
 Save the .txt file and upload it to the app.
+
 
 Folder Structure
 
@@ -61,15 +65,23 @@ whatsapp-chat-analysis/
 
 Dependencies
 
+
 Python 3.x
+
 Streamlit
+
 Matplotlib
+
 Seaborn
+
 Pandas
+
 Numpy
 
 
+
 Future Improvements
+
 
 ✅ Sentiment Analysis
 
