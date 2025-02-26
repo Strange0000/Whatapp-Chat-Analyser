@@ -62,6 +62,7 @@ Save the .txt file and upload it to the app.
 ## Folder Structure
 
 whatsapp-chat-analysis/
+
 │── processor.py        # Chat preprocessing functions
 
 │── helper.py           # Analysis and visualization functions
