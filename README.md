@@ -10,11 +10,17 @@ WhatsApp Chat Analysis is a data-driven tool that helps users extract insights f
 ## Features
 
 ✅ Upload WhatsApp Chat Export (.txt)
+
 ✅ View Top Statistics: Messages, Words, Links, Videos, Images, and Audio shared
+
 ✅ Activity Timeline: Monthly and Daily trends
+
 ✅ User Activity Map: Weekly heatmap, busiest days, and most active users
+
 ✅ Most Common Words & WordCloud
+
 ✅ Emoji Analysis
+
 
 ## Installation
 
