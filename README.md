@@ -3,11 +3,11 @@
 
 
 
-Overview
+## Overview
 
 WhatsApp Chat Analysis is a data-driven tool that helps users extract insights from their WhatsApp chat history. Built using Streamlit, Matplotlib, Seaborn, and Python, this app provides detailed statistics such as message count, word count, media shared, activity trends, common words, and emoji usage.
 
-Features
+## Features
 
 ✅ Upload WhatsApp Chat Export (.txt)
 ✅ View Top Statistics: Messages, Words, Links, Videos, Images, and Audio shared
@@ -16,10 +16,10 @@ Features
 ✅ Most Common Words & WordCloud
 ✅ Emoji Analysis
 
-Installation
+## Installation
 
 
-Clone the repository
+## Clone the repository
 
 git clone https://github.com/Strange0000/whatsapp-chat-analysis.git
 cd whatsapp-chat-analysis
@@ -31,16 +31,16 @@ python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
 
-Install dependencies
+## Install dependencies
 pip install -r requirements.txt
 
 
-Usage
+## Usage
 
 Run the Streamlit app:
 streamlit run app.py
 
-How to Export WhatsApp Chat?
+## How to Export WhatsApp Chat?
 
 Open WhatsApp on your phone.
 Go to the chat you want to analyze.
@@ -49,7 +49,7 @@ Choose Without Media for a cleaner analysis.
 Save the .txt file and upload it to the app.
 
 
-Folder Structure
+## Folder Structure
 
 whatsapp-chat-analysis/
 │── processor.py        # Chat preprocessing functions
@@ -63,7 +63,7 @@ whatsapp-chat-analysis/
 │── README.md           # Project documentation
 
 
-Dependencies
+## Dependencies
 
 
 Python 3.x
@@ -80,7 +80,7 @@ Numpy
 
 
 
-Future Improvements
+## Future Improvements
 
 
 ✅ Sentiment Analysis
@@ -91,7 +91,7 @@ Future Improvements
 
 
 
-Contributing
+## Contributing
 Feel free to open issues or create pull requests to contribute to this project.
 
 License
