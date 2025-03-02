@@ -104,6 +104,20 @@ if uploaded_file is not None:
         sns.heatmap(user_heatmap)
         st.pyplot(fig)
 
+         # Most COmmon Words
+        st.title(" Most Common Words")
+        most_common_words = helper.most_common_words(selected_user, df)
+        if not most_common_words.empty:
+            st.dataframe(most_common_words)
+        else:
+            st.write("No words found in chat!")
+            
+            
+        # Word Cloud
+        st.title("🌈 Word Cloud")
+        word_cloud = helper.word_cloud(selected_user, df)
+        st.image(word_cloud)
+
         # Emoji Analysis
         emoji_df = helper.emoji_helper(selected_user, df)
         st.title("😀 Emoji Analysis")
