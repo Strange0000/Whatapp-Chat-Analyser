@@ -79,6 +79,15 @@ if uploaded_file is not None:
         col5.metric("📷 Images", num_image)
         col6.metric("🎵 Audios", num_audio)
 
+
+
+           # most busy user
+        most_busy_user, df_most_busy_user = helper.most_busy_user(df)
+        st.title("👑 Most Active User")
+        st.write(f"The most active user is {most_busy_user} with {df_most_busy_user.iloc[0]} messages.")
+        st.write("Here is the percentage of messages sent by each user:")
+        st.dataframe(df_most_busy_user)
+
         # Monthly Timeline
         st.title("📆 Monthly Timeline")
         timeline = helper.monthly_timeline(selected_user, df)
