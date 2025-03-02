@@ -113,10 +113,7 @@ if uploaded_file is not None:
             st.write("No words found in chat!")
             
             
-        # Word Cloud
-        st.title("🌈 Word Cloud")
-        word_cloud = helper.word_cloud(selected_user, df)
-        st.image(word_cloud)
+       
 
         # Emoji Analysis
         emoji_df = helper.emoji_helper(selected_user, df)
